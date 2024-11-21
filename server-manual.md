@@ -4,7 +4,7 @@ layout: Layout
 
 ---
 
-> ## **公告**
+> ## 公告
 >
 > 最新文档链接：[Docs (feishu.cn)](https://qxamy0jrcq6.feishu.cn/docx/MQFMdtObYoqQjrxV0v3cx0fhnGd)
 
@@ -17,8 +17,6 @@ layout: Layout
 ## **切记定时备份数据，谨防数据丢失!!!**
 
 ## **切记定时备份数据，谨防数据丢失!!!**
-
-
 
 - 最好是已经**在自己电脑上调通的代码**，放在服务器上直接运行。并且在自己电脑上保留代码数据，防止服务器出现问题，影响科研进程。
 - 该页面可能因浏览器缓存问题不能及时更新，请手动刷新网页，一般三次以上即可。
@@ -85,14 +83,12 @@ shared 目录为共享目录，其中存放了一些常用的软件包和驱动�
 
 1. 修改版本 输入命令: `nano ~/.bashrc` 将文件末尾的 `11.7` 均改为 `11.8` 即可
 
-!https://s2.loli.net/2023/09/24/FL2SerECzIMjWwZ.png
+![image-20241121214029321](https://cdn.jsdelivr.net/gh/ghlcode/PicBed/img/image-20241121214029321.png)
 
 1. 激活环境 输入命令: `source ~/.bashrc`
 2. 测试 输入命令：`nvcc -V`
 
-!https://s2.loli.net/2023/09/24/yPHpE8d1aN4SKDA.png
-
-</aside>
+![image-20241121214044162](https://cdn.jsdelivr.net/gh/ghlcode/PicBed/img/image-20241121214044162.png)
 
 ## 运行程序
 
@@ -104,7 +100,7 @@ shared 目录为共享目录，其中存放了一些常用的软件包和驱动�
 nvidia-smi
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a084f28-cd3e-43ee-b54e-7ecf8f3caa65/Untitled.png)
+![image-20241121214101991](https://cdn.jsdelivr.net/gh/ghlcode/PicBed/img/image-20241121214101991.png)
 
 ## 僵尸进程
 
@@ -122,7 +118,7 @@ nvidia-smi
 ps aux|grep python
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/539e213d-33e8-4316-8c9f-d2b234adc00d/Untitled.png)
+![image-20241121214129669](https://cdn.jsdelivr.net/gh/ghlcode/PicBed/img/image-20241121214129669.png)
 
 根据显示的具体python命令来查杀僵尸进程
 
