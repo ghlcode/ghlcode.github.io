@@ -2,11 +2,20 @@ import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
 import { webpackBundler } from '@vuepress/bundler-webpack'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 export default defineUserConfig({
   title: "GHLcode",
   description: "山高水长，怕什么来不及，慌什么到不了。",
   bundler: viteBundler(),
+  head: [
+    ['link', { rel: 'icon', href: '/logo.ico' }]
+  ],
+  plugins: [
+    sitemapPlugin({
+      hostname: 'https://ghlcode.cn'
+    }),
+  ],
   // bundler: webpackBundler(),
   theme: recoTheme({
     style: "@vuepress-reco/style-default",

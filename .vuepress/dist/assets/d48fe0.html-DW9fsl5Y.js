@@ -1,0 +1,8 @@
+import{_ as s,c as t,e as a,o as n}from"./app-DVyU65El.js";const i={};function l(r,e){return n(),t("div",null,e[0]||(e[0]=[a(`<p>使用<code>Python</code>在终端打印出好看的表格</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text" data-title="text"><pre><code><span class="line">from prettytable import PrettyTable</span>
+<span class="line">table = PrettyTable([&#39;Title1&#39;, &#39;Title2&#39;, &#39;Title3&#39;])</span>
+<span class="line"></span>
+<span class="line">table.add_row([1, 2, 3])</span>
+<span class="line">table.add_row([4, 5, 6])</span>
+<span class="line"></span>
+<span class="line">print(table)</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果：</p><p><img src="https://cdn.jsdelivr.net/gh/ghlcode/PicBed/img/image-20241112112129698.png" alt="image-20241112112129698"></p>`,4)]))}const c=s(i,[["render",l],["__file","d48fe0.html.vue"]]),p=JSON.parse('{"path":"/pages/d48fe0.html","title":"Python 打印表格","lang":"en-US","frontmatter":{"title":"Python 打印表格","date":"2022/05/12","permalink":"/pages/d48fe0.html","categories":["posts"],"tags":["posts"]},"headers":[],"git":{"createdTime":1732191603000,"updatedTime":1732191603000,"contributors":[{"name":"Ghlerrix","email":"Ghlerrix@outlook.com","commits":1}]},"filePathRelative":"blogs/posts/Python 打印表格.md"}');export{c as comp,p as data};
