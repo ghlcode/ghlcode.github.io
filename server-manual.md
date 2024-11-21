@@ -4,11 +4,9 @@ layout: Layout
 
 ---
 
-## 
-
-::: <danger> 公告
-最新文档链接：[Docs (feishu.cn)](https://qxamy0jrcq6.feishu.cn/docx/MQFMdtObYoqQjrxV0v3cx0fhnGd)
-:::
+> ## **公告**
+>
+> 最新文档链接：[Docs (feishu.cn)](https://qxamy0jrcq6.feishu.cn/docx/MQFMdtObYoqQjrxV0v3cx0fhnGd)
 
 
 
